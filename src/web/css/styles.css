@@ -1,0 +1,96 @@
+body {
+    background-color: #d8ddd5;
+}
+
+table {
+    top: 400px;
+    margin: auto;
+    width: 295px;
+    max-width: 295px;
+    height: 345px;
+    max-height: 345px;
+    background-color: #222;
+    text-align: center;
+    border-radius: 4px;
+    padding-right: 10px;
+}
+
+input {
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0 solid #000;
+    border-radius: 4px;
+    color: #010101;
+    background-color: #fff;
+    width: 60px;
+    height: 50px;
+    float: left;
+    font-size: 18px;
+    box-shadow: 0 4px #b0d2cf;
+    margin: 5px 5px 20px;
+}
+
+input:hover {
+    font-size: 22px;
+}
+
+input:active {
+    top: 3px;
+    margin: 0 5px -5px;
+    font-size: 20px;
+    box-shadow: none;
+}
+
+#display {
+    outline: 0;
+    float: left;
+    position: relative;
+    width: 275px;
+    height: 50px;
+    margin: 15px 10px 10px;
+    background-color: #f1f2ca;
+    box-shadow: none;
+    font-size: 26px;
+    text-align: right;
+}
+
+#display:active {
+    text-align: right;
+    margin: 18px 10px 8px;
+}
+
+.operator {
+    position: relative;
+    background-color: #cee9ea;
+    font-size: 28px;
+    text-align: center;
+}
+
+.operator:hover {
+    background-color: #c3dedf;
+    font-size: 32px;
+}
+
+.operator:active {
+    top: 3px;
+    font-size: 28px;
+    box-shadow: none;
+}
+
+#clear {
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #ff9fa8;
+}
+
+#clear:hover {
+    background-color: #f22328;
+}
+
+#clear:active {
+    top: 4px;
+    box-shadow: none;
+}
